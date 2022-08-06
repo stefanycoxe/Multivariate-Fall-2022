@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Multivariate (PSY 5246C) - Fall 2022"
