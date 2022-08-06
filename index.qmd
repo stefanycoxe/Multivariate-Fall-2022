@@ -1,0 +1,22 @@
+---
+title: "Multivariate (PSY 5246C) - Fall 2022"
+---
+
+Syllabus: [HTML]() [PDF]()
+
+[Lecture videos on Youtube](https://www.youtube.com/playlist?list=PLKrGRYggZL-Ep68y7UMzHwSEHoXlszMyI)
+
+| Week | Topic                           | HTML slides | PDF handout |
+|------|---------------------------------|-------------|-------------|
+| 1    | Matrix algebra                  | [Mult22-1.html](files/Mult22-1.html) | [Mult22-1.pdf](files/Mult22-1.pdf) |
+| 2    | Linear regression               |             |             |
+| 3    | Linear regression               |             |             |
+| 4    | Logistic regression             |             |             |
+| 5    | Poisson regression              |             |             |
+| 6    | Matrix algebra                  |             |             |
+| 7    | Principal component analysis    |             |             |
+| 8    | Factor analysis                 |             |             |
+| 9    | Latent class / profile analysis |             |             |
+| 10   | MANOVA / RM ANOVA               |             |             |
+| 11   | Mixed models                    |             |             |
+| 12   | Mediation                       |             |             |

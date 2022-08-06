@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "Multivariate (PSY 5246C) - Fall 2022"
+  sidebar:
+    logo: "images/mult2022.png"
+    pinned: true
+    align: center
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
