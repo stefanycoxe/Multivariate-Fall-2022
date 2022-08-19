@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.315">
 
-  <title>Multivariate</title>
+  <title>Multivariate: Matrix algebra</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -1186,7 +1186,7 @@ display: none;
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Multivariate</h1>
+  <h1 class="title">Multivariate: Matrix algebra</h1>
 </section>
 
 <section>
@@ -1535,8 +1535,8 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 </section>
 <section id="multiplication-example-matrix-times-matrix" class="slide level3" data-number="2.2.7">
 <h3><span class="header-section-number">2.2.7</span> Multiplication example: matrix times matrix</h3>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \textbf{A} \\ (2,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \textbf{B} \\ (3,2) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix}\textbf{C} \\ (2,2) \end{matrix}\)</span></p>
-<p><span class="math inline">\(\color{teal}{\begin{bmatrix} 2 &amp; 4 &amp; 1 \\ 3 &amp; 0 &amp; 4 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 1 &amp; 3 \\ 2 &amp; 0 \\ 4 &amp; 2 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 14 &amp; 8 \\ 19 &amp; 17 \end{bmatrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \textbf{A} \\ (2,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \textbf{B} \\ (3,2) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix}\textbf{C} \\ (2,2) \end{matrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{bmatrix} 2 &amp; 4 &amp; 1 \\ 3 &amp; 0 &amp; 4 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 1 &amp; 3 \\ 2 &amp; 0 \\ 4 &amp; 2 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 14 &amp; 8 \\ 19 &amp; 17 \end{bmatrix}\)</span></p>
 <!-- <span style="color: red;">$\begin{matrix} -->
 <!-- \textbf{A} \\ (2,3)  -->
 <!-- \end{matrix}$</span> -->
@@ -1563,42 +1563,42 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 <!-- \end{bmatrix}$ -->
 <!-- R1, C1: $($<span style="color: red;">$2$</span> $\times$ <span style="color: blue;">$1$</span>$) + ($<span style="color: red;">$4$</span> $\times$ <span style="color: blue;">$2$</span>$) + ($<span style="color: red;">$1$</span> $\times$ <span style="color: blue;">$4$</span>$) = 14$ -->
 <!-- R1, C2: $($<span style="color: red;">$2$</span> $\times$ <span style="color: blue;">$3$</span>$) + ($<span style="color: red;">$4$</span> $\times$ <span style="color: blue;">$0$</span>$) + ($<span style="color: red;">$1$</span> $\times$ <span style="color: blue;">$2$</span>$) = 8$ -->
-<p>Row 1, Column 1: <span class="math inline">\(({\color{teal}2} \times {\color{blue}1}) + ({\color{teal}4} \times {\color{blue}2}) + ({\color{teal}1} \times {\color{blue}4}) = 14\)</span></p>
-<p>Row 1, Column 2: <span class="math inline">\(({\color{teal}2} \times {\color{blue}3}) + ({\color{teal}4} \times {\color{blue}0}) + ({\color{teal}1} \times {\color{blue}2}) = 8\)</span></p>
-<p>Row 2, Column 1: <span class="math inline">\(({\color{teal}3} \times {\color{blue}1}) + ({\color{teal}0} \times {\color{blue}2}) + ({\color{teal}4} \times {\color{blue}4}) = 19\)</span></p>
-<p>Row 2, Column 2: <span class="math inline">\(({\color{teal}3} \times {\color{blue}3}) + ({\color{teal}0} \times {\color{blue}0}) + ({\color{teal}4} \times {\color{blue}2}) = 17\)</span></p>
+<p>Row 1, Column 1: <span class="math inline">\(({\color{OrangeRed}2} \times {\color{blue}1}) + ({\color{OrangeRed}4} \times {\color{blue}2}) + ({\color{OrangeRed}1} \times {\color{blue}4}) = 14\)</span></p>
+<p>Row 1, Column 2: <span class="math inline">\(({\color{OrangeRed}2} \times {\color{blue}3}) + ({\color{OrangeRed}4} \times {\color{blue}0}) + ({\color{OrangeRed}1} \times {\color{blue}2}) = 8\)</span></p>
+<p>Row 2, Column 1: <span class="math inline">\(({\color{OrangeRed}3} \times {\color{blue}1}) + ({\color{OrangeRed}0} \times {\color{blue}2}) + ({\color{OrangeRed}4} \times {\color{blue}4}) = 19\)</span></p>
+<p>Row 2, Column 2: <span class="math inline">\(({\color{OrangeRed}3} \times {\color{blue}3}) + ({\color{OrangeRed}0} \times {\color{blue}0}) + ({\color{OrangeRed}4} \times {\color{blue}2}) = 17\)</span></p>
 </section>
 <section id="multiplication-example-matrix-times-column-vector" class="slide level3" data-number="2.2.8">
 <h3><span class="header-section-number">2.2.8</span> Multiplication example: matrix times column vector</h3>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \textbf{A} \\ (2,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix} \underline{c} \\ (2,1) \end{matrix}\)</span></p>
-<p><span class="math inline">\(\color{teal}{\begin{bmatrix} 2 &amp; 4 &amp; 1 \\ 3 &amp; 0 &amp; 4 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 1 \\ 2 \\ 4 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 14 \\ 19 \end{bmatrix}\)</span></p>
-<p>Row 1, Column 1: <span class="math inline">\(({\color{teal}2} \times {\color{blue}1}) + ({\color{teal}4} \times {\color{blue}2}) + ({\color{teal}1} \times {\color{blue}4}) = 14\)</span></p>
-<p>Row 2, Column 1: <span class="math inline">\(({\color{teal}3} \times {\color{blue}1}) + ({\color{teal}0} \times {\color{blue}2}) + ({\color{teal}4} \times {\color{blue}4}) = 19\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \textbf{A} \\ (2,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix} \underline{c} \\ (2,1) \end{matrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{bmatrix} 2 &amp; 4 &amp; 1 \\ 3 &amp; 0 &amp; 4 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 1 \\ 2 \\ 4 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 14 \\ 19 \end{bmatrix}\)</span></p>
+<p>Row 1, Column 1: <span class="math inline">\(({\color{OrangeRed}2} \times {\color{blue}1}) + ({\color{OrangeRed}4} \times {\color{blue}2}) + ({\color{OrangeRed}1} \times {\color{blue}4}) = 14\)</span></p>
+<p>Row 2, Column 1: <span class="math inline">\(({\color{OrangeRed}3} \times {\color{blue}1}) + ({\color{OrangeRed}0} \times {\color{blue}2}) + ({\color{OrangeRed}4} \times {\color{blue}4}) = 19\)</span></p>
 </section>
 <section id="multiplication-example-data-matrix-times-column-vector-of-regression-coefficients" class="slide level3" data-number="2.2.9">
 <h3><span class="header-section-number">2.2.9</span> Multiplication example: data matrix times column vector of regression coefficients</h3>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \textbf{X} \\ (5,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix} \underline{c} \\ (5,1) \end{matrix}\)</span></p>
-<p><span class="math inline">\(\color{teal}{\begin{bmatrix} X_{11} &amp; X_{12} &amp; X_{13} \\ X_{21} &amp; X_{22} &amp; X_{23} \\ X_{31} &amp; X_{32} &amp; X_{33} \\ X_{41} &amp; X_{42} &amp; X_{43} \\ X_{51} &amp; X_{52} &amp; X_{53} \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix}\color{blue}{b_1}\color{teal}{X_{11}} + \color{blue}{b_2}\color{teal}{X_{12}} + \color{blue}{b_3}\color{teal}{X_{13}} \\ \color{blue}{b_1}\color{teal}{X_{21}} + \color{blue}{b_2}\color{teal}{X_{22}} + \color{blue}{b_3}\color{teal}{X_{23}}\\ \color{blue}{b_1}\color{teal}{X_{31}} + \color{blue}{b_2}\color{teal}{X_{32}} + \color{blue}{b_3}\color{teal}{X_{33}} \\ \color{blue}{b_1}\color{teal}{X_{41}} + \color{blue}{b_2}\color{teal}{X_{42}} + \color{blue}{b_3}\color{teal}{X_{43}}\\ \color{blue}{b_1}\color{teal}{X_{51}} + \color{blue}{b_2}\color{teal}{X_{52}} + \color{blue}{b_3}\color{teal}{X_{53}} \end{bmatrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \textbf{X} \\ (5,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix} \underline{c} \\ (5,1) \end{matrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{bmatrix} X_{11} &amp; X_{12} &amp; X_{13} \\ X_{21} &amp; X_{22} &amp; X_{23} \\ X_{31} &amp; X_{32} &amp; X_{33} \\ X_{41} &amp; X_{42} &amp; X_{43} \\ X_{51} &amp; X_{52} &amp; X_{53} \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix}\color{blue}{b_1}\color{OrangeRed}{X_{11}} + \color{blue}{b_2}\color{OrangeRed}{X_{12}} + \color{blue}{b_3}\color{OrangeRed}{X_{13}} \\ \color{blue}{b_1}\color{OrangeRed}{X_{21}} + \color{blue}{b_2}\color{OrangeRed}{X_{22}} + \color{blue}{b_3}\color{OrangeRed}{X_{23}}\\ \color{blue}{b_1}\color{OrangeRed}{X_{31}} + \color{blue}{b_2}\color{OrangeRed}{X_{32}} + \color{blue}{b_3}\color{OrangeRed}{X_{33}} \\ \color{blue}{b_1}\color{OrangeRed}{X_{41}} + \color{blue}{b_2}\color{OrangeRed}{X_{42}} + \color{blue}{b_3}\color{OrangeRed}{X_{43}}\\ \color{blue}{b_1}\color{OrangeRed}{X_{51}} + \color{blue}{b_2}\color{OrangeRed}{X_{52}} + \color{blue}{b_3}\color{OrangeRed}{X_{53}} \end{bmatrix}\)</span></p>
 </section>
 <section id="multiplication-example-row-vector-times-column-vector" class="slide level3" data-number="2.2.10">
 <h3><span class="header-section-number">2.2.10</span> Multiplication example: row vector times column vector</h3>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \underline{a'} \\ (1,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix} \underline{c} \\ (1,1) \end{matrix}\)</span></p>
-<p><span class="math inline">\(\color{teal}{\begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 2 \\ 4 \\ 9 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 55 \end{bmatrix}\)</span></p>
-<p><span class="math inline">\(({\color{teal}3} \times {\color{blue}2}) + ({\color{teal}1} \times {\color{blue}4}) + ({\color{teal}5} \times {\color{blue}9}) = 55\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \underline{a'} \\ (1,3) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix} \underline{c} \\ (1,1) \end{matrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 2 \\ 4 \\ 9 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 55 \end{bmatrix}\)</span></p>
+<p><span class="math inline">\(({\color{OrangeRed}3} \times {\color{blue}2}) + ({\color{OrangeRed}1} \times {\color{blue}4}) + ({\color{OrangeRed}5} \times {\color{blue}9}) = 55\)</span></p>
 </section>
 <section id="multiplication-example-column-vector-times-row-vector" class="slide level3" data-number="2.2.11">
 <h3><span class="header-section-number">2.2.11</span> Multiplication example: column vector times row vector</h3>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{a'} \\ (1,3) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix}\textbf{C} \\ (3,3) \end{matrix}\)</span></p>
-<p><span class="math inline">\(\color{teal}{\begin{bmatrix} 2 \\ 4 \\ 9 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 6 &amp; 2 &amp; 10 \\ 12 &amp; 4 &amp; 20 \\ 27 &amp; 9 &amp; 45 \end{bmatrix}\)</span></p>
-<p>Row 1, Column 1: <span class="math inline">\(({\color{teal}2} \times {\color{blue}3}) = 6\)</span></p>
-<p>Row 1, Column 2: <span class="math inline">\(({\color{teal}2} \times {\color{blue}1}) = 2\)</span></p>
-<p>Row 1, Column 3: <span class="math inline">\(({\color{teal}2} \times {\color{blue}5}) = 10\)</span></p>
-<p>Row 2, Column 1: <span class="math inline">\(({\color{teal}4} \times {\color{blue}3}) = 12\)</span></p>
-<p>Row 2, Column 2: <span class="math inline">\(({\color{teal}4} \times {\color{blue}1}) = 4\)</span></p>
-<p>Row 2, Column 3: <span class="math inline">\(({\color{teal}4} \times {\color{blue}5}) = 20\)</span></p>
-<p>Row 3, Column 1: <span class="math inline">\(({\color{teal}9} \times {\color{blue}3}) = 27\)</span></p>
-<p>Row 3, Column 2: <span class="math inline">\(({\color{teal}9} \times {\color{blue}1}) = 9\)</span></p>
-<p>Row 3, Column 3: <span class="math inline">\(({\color{teal}9} \times {\color{blue}5}) = 45\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \underline{b} \\ (3,1) \end{matrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{a'} \\ (1,3) \end{matrix}}\)</span> = <span class="math inline">\(\begin{matrix}\textbf{C} \\ (3,3) \end{matrix}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{bmatrix} 2 \\ 4 \\ 9 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{bmatrix} 3 &amp; 1 &amp; 5 \end{bmatrix}}\)</span> = <span class="math inline">\(\begin{bmatrix} 6 &amp; 2 &amp; 10 \\ 12 &amp; 4 &amp; 20 \\ 27 &amp; 9 &amp; 45 \end{bmatrix}\)</span></p>
+<p>Row 1, Column 1: <span class="math inline">\(({\color{OrangeRed}2} \times {\color{blue}3}) = 6\)</span></p>
+<p>Row 1, Column 2: <span class="math inline">\(({\color{OrangeRed}2} \times {\color{blue}1}) = 2\)</span></p>
+<p>Row 1, Column 3: <span class="math inline">\(({\color{OrangeRed}2} \times {\color{blue}5}) = 10\)</span></p>
+<p>Row 2, Column 1: <span class="math inline">\(({\color{OrangeRed}4} \times {\color{blue}3}) = 12\)</span></p>
+<p>Row 2, Column 2: <span class="math inline">\(({\color{OrangeRed}4} \times {\color{blue}1}) = 4\)</span></p>
+<p>Row 2, Column 3: <span class="math inline">\(({\color{OrangeRed}4} \times {\color{blue}5}) = 20\)</span></p>
+<p>Row 3, Column 1: <span class="math inline">\(({\color{OrangeRed}9} \times {\color{blue}3}) = 27\)</span></p>
+<p>Row 3, Column 2: <span class="math inline">\(({\color{OrangeRed}9} \times {\color{blue}1}) = 9\)</span></p>
+<p>Row 3, Column 3: <span class="math inline">\(({\color{OrangeRed}9} \times {\color{blue}5}) = 45\)</span></p>
 </section>
 <section id="multiplication-example-matrix-times-a-scalar" class="slide level3" data-number="2.2.12">
 <h3><span class="header-section-number">2.2.12</span> Multiplication example: matrix times a scalar</h3>
@@ -1672,16 +1672,16 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 </section>
 <section id="matrix-times-inverse-identity-matrix" class="slide level3" data-number="2.2.20">
 <h3><span class="header-section-number">2.2.20</span> Matrix times inverse = identity matrix</h3>
-<p><span class="math inline">\(\textbf{A} = \color{teal}{\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 1 &amp; 3 &amp; 2 \\ 2 &amp; 4 &amp; 1 \end{bmatrix}}\)</span> <span class="math inline">\(\textbf{A}^{-1} = \color{blue}{\begin{bmatrix} 1 &amp; -2 &amp; 1 \\ -\frac{3}{5} &amp; 1 &amp; -\frac{1}{5} \\ \frac{2}{5} &amp; 0 &amp; -\frac{1}{5} \end{bmatrix}}\)</span></p>
-<p>Row 1, Column 1: <span class="math inline">\(1 = ({\color{teal}1} \times {\color{blue}1}) + ({\color{teal}2} \times {\color{blue}{-\frac{3}{5}}}) + ({\color{teal}3} \times {\color{blue}{\frac{2}{5}}})\)</span></p>
-<p>Row 1, Column 2: <span class="math inline">\(0 = ({\color{teal}1} \times {\color{blue}{-2}}) + ({\color{teal}2} \times {\color{blue}1}) + ({\color{teal}3} \times {\color{blue}0})\)</span></p>
-<p>Row 1, Column 3: <span class="math inline">\(0 = ({\color{teal}1} \times {\color{blue}1}) + ({\color{teal}2} \times {\color{blue}{-\frac{1}{5}}}) + ({\color{teal}3} \times {\color{blue}{-\frac{1}{5}}})\)</span></p>
-<p>Row 2, Column 1: <span class="math inline">\(0 = ({\color{teal}1} \times {\color{blue}1}) + ({\color{teal}3} \times {\color{blue}{-\frac{3}{5}}}) + ({\color{teal}2} \times {\color{blue}{\frac{2}{5}}})\)</span></p>
-<p>Row 2, Column 2: <span class="math inline">\(1 = ({\color{teal}1} \times {\color{blue}{-2}}) + ({\color{teal}3} \times {\color{blue}1}) + ({\color{teal}2} \times {\color{blue}0})\)</span></p>
-<p>Row 2, Column 3: <span class="math inline">\(0 = ({\color{teal}1} \times {\color{blue}1}) + ({\color{teal}3} \times {\color{blue}{-\frac{1}{5}}}) + ({\color{teal}2} \times {\color{blue}{-\frac{1}{5}}})\)</span></p>
-<p>Row 3, Column 1: <span class="math inline">\(0 = ({\color{teal}2} \times {\color{blue}1}) + ({\color{teal}4} \times {\color{blue}{-\frac{3}{5}}}) + ({\color{teal}1} \times {\color{blue}{\frac{2}{5}}})\)</span></p>
-<p>Row 3, Column 2: <span class="math inline">\(0 = ({\color{teal}2} \times {\color{blue}{-2}}) + ({\color{teal}4} \times {\color{blue}1}) + ({\color{teal}1} \times {\color{blue}0})\)</span></p>
-<p>Row 3, Column 3: <span class="math inline">\(1 = ({\color{teal}2} \times {\color{blue}1}) + ({\color{teal}4} \times {\color{blue}{-\frac{1}{5}}}) + ({\color{teal}1} \times {\color{blue}{-\frac{1}{5}}})\)</span></p>
+<p><span class="math inline">\(\textbf{A} = \color{OrangeRed}{\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 1 &amp; 3 &amp; 2 \\ 2 &amp; 4 &amp; 1 \end{bmatrix}}\)</span> <span class="math inline">\(\textbf{A}^{-1} = \color{blue}{\begin{bmatrix} 1 &amp; -2 &amp; 1 \\ -\frac{3}{5} &amp; 1 &amp; -\frac{1}{5} \\ \frac{2}{5} &amp; 0 &amp; -\frac{1}{5} \end{bmatrix}}\)</span></p>
+<p>Row 1, Column 1: <span class="math inline">\(1 = ({\color{OrangeRed}1} \times {\color{blue}1}) + ({\color{OrangeRed}2} \times {\color{blue}{-\frac{3}{5}}}) + ({\color{OrangeRed}3} \times {\color{blue}{\frac{2}{5}}})\)</span></p>
+<p>Row 1, Column 2: <span class="math inline">\(0 = ({\color{OrangeRed}1} \times {\color{blue}{-2}}) + ({\color{OrangeRed}2} \times {\color{blue}1}) + ({\color{OrangeRed}3} \times {\color{blue}0})\)</span></p>
+<p>Row 1, Column 3: <span class="math inline">\(0 = ({\color{OrangeRed}1} \times {\color{blue}1}) + ({\color{OrangeRed}2} \times {\color{blue}{-\frac{1}{5}}}) + ({\color{OrangeRed}3} \times {\color{blue}{-\frac{1}{5}}})\)</span></p>
+<p>Row 2, Column 1: <span class="math inline">\(0 = ({\color{OrangeRed}1} \times {\color{blue}1}) + ({\color{OrangeRed}3} \times {\color{blue}{-\frac{3}{5}}}) + ({\color{OrangeRed}2} \times {\color{blue}{\frac{2}{5}}})\)</span></p>
+<p>Row 2, Column 2: <span class="math inline">\(1 = ({\color{OrangeRed}1} \times {\color{blue}{-2}}) + ({\color{OrangeRed}3} \times {\color{blue}1}) + ({\color{OrangeRed}2} \times {\color{blue}0})\)</span></p>
+<p>Row 2, Column 3: <span class="math inline">\(0 = ({\color{OrangeRed}1} \times {\color{blue}1}) + ({\color{OrangeRed}3} \times {\color{blue}{-\frac{1}{5}}}) + ({\color{OrangeRed}2} \times {\color{blue}{-\frac{1}{5}}})\)</span></p>
+<p>Row 3, Column 1: <span class="math inline">\(0 = ({\color{OrangeRed}2} \times {\color{blue}1}) + ({\color{OrangeRed}4} \times {\color{blue}{-\frac{3}{5}}}) + ({\color{OrangeRed}1} \times {\color{blue}{\frac{2}{5}}})\)</span></p>
+<p>Row 3, Column 2: <span class="math inline">\(0 = ({\color{OrangeRed}2} \times {\color{blue}{-2}}) + ({\color{OrangeRed}4} \times {\color{blue}1}) + ({\color{OrangeRed}1} \times {\color{blue}0})\)</span></p>
+<p>Row 3, Column 3: <span class="math inline">\(1 = ({\color{OrangeRed}2} \times {\color{blue}1}) + ({\color{OrangeRed}4} \times {\color{blue}{-\frac{1}{5}}}) + ({\color{OrangeRed}1} \times {\color{blue}{-\frac{1}{5}}})\)</span></p>
 </section>
 </section>
 <section>
@@ -1848,8 +1848,8 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 </section>
 <section id="unit-vector-adds-up-elements" class="slide level3" data-number="4.2.2">
 <h3><span class="header-section-number">4.2.2</span> Unit vector adds up elements</h3>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \underline{1}'\\ (1,4) \end{matrix} = \begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \\ \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{x} \\ (4,1) \end{matrix} = \begin{bmatrix} 4 \\ 3 \\ 8 \\ 2 \\ \end{bmatrix}}\)</span></p>
-<p><span class="math inline">\(\color{teal}{\underline{1}'} \color{blue}{\underline{x}} = (\color{teal}{1} \times \color{blue}{4}) + (\color{teal}{1} \times \color{blue}{3}) + (\color{teal}{1} \times \color{blue}{8}) + (\color{teal}{1} \times \color{blue}{2}) =\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \underline{1}'\\ (1,4) \end{matrix} = \begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \\ \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{x} \\ (4,1) \end{matrix} = \begin{bmatrix} 4 \\ 3 \\ 8 \\ 2 \\ \end{bmatrix}}\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\underline{1}'} \color{blue}{\underline{x}} = (\color{OrangeRed}{1} \times \color{blue}{4}) + (\color{OrangeRed}{1} \times \color{blue}{3}) + (\color{OrangeRed}{1} \times \color{blue}{8}) + (\color{OrangeRed}{1} \times \color{blue}{2}) =\)</span></p>
 <p><span class="math inline">\(4 + 3 + 8 + 2 = 17\)</span></p>
 </section>
 <section id="unit-matrix" class="slide level3" data-number="4.2.3">
@@ -1874,16 +1874,16 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 <section id="mean-of-a-single-variable-1" class="slide level3" data-number="4.3.2">
 <h3><span class="header-section-number">4.3.2</span> Mean of a single variable</h3>
 <p>Example: Variable <span class="math inline">\(X\)</span> is observed for <span class="math inline">\(n = 4\)</span> subjects</p>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \underline{1}'\\ (1,4) \end{matrix} = \begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{x} \\ (4,1) \end{matrix} = \begin{bmatrix} 4 \\ 3 \\ 8 \\ 2 \end{bmatrix}}\)</span></p>
-<p><span class="math inline">\(\overline{X} =\frac{1}{n} \:\color{teal}{\underline{1}'} \:\color{blue}{\underline{x}} =\)</span></p>
-<p><span class="math inline">\(\frac{1}{4} [(\color{teal}{1}\times \color{blue}{4}) + (\color{teal}{1}\times \color{blue}{3}) + (\color{teal}{1}\times \color{blue}{8}) + (\color{teal}{1}\times \color{blue}{2})] =\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \underline{1}'\\ (1,4) \end{matrix} = \begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \underline{x} \\ (4,1) \end{matrix} = \begin{bmatrix} 4 \\ 3 \\ 8 \\ 2 \end{bmatrix}}\)</span></p>
+<p><span class="math inline">\(\overline{X} =\frac{1}{n} \:\color{OrangeRed}{\underline{1}'} \:\color{blue}{\underline{x}} =\)</span></p>
+<p><span class="math inline">\(\frac{1}{4} [(\color{OrangeRed}{1}\times \color{blue}{4}) + (\color{OrangeRed}{1}\times \color{blue}{3}) + (\color{OrangeRed}{1}\times \color{blue}{8}) + (\color{OrangeRed}{1}\times \color{blue}{2})] =\)</span></p>
 <p><span class="math inline">\(\frac{1}{4}(4 + 3 + 8 + 2) = \frac{17}{4} = 4.25\)</span></p>
 </section>
 <section id="mean-of-several-variables" class="slide level3" data-number="4.3.3">
 <h3><span class="header-section-number">4.3.3</span> Mean of several variables</h3>
 <p>Example: Variables <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, and <span class="math inline">\(X_3\)</span> for <span class="math inline">\(n=4\)</span> subjects</p>
-<p><span class="math inline">\(\color{teal}{\begin{matrix} \underline{1}'\\ (1,4) \end{matrix} = \begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \textbf{X} \\ (4,3) \end{matrix} = \begin{bmatrix} 4 &amp; 2 &amp; 4 \\ 3 &amp; 1 &amp; 1 \\ 8 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 5 \end{bmatrix}}\)</span></p>
-<p><span class="math inline">\(\overline{\underline{x}} =\frac{1}{n}\:\color{teal}{\underline{1}'}\:\color{blue}{\textbf{X}}= \frac{1}{4} \color{teal}{\begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1\\ \end{bmatrix}} \color{blue}{\begin{bmatrix} 4 &amp; 2 &amp; 4 \\ 3 &amp; 1 &amp; 1 \\ 8 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 5 \end{bmatrix}}=\)</span></p>
+<p><span class="math inline">\(\color{OrangeRed}{\begin{matrix} \underline{1}'\\ (1,4) \end{matrix} = \begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \end{bmatrix}}\)</span> <span class="math inline">\(\color{blue}{\begin{matrix} \textbf{X} \\ (4,3) \end{matrix} = \begin{bmatrix} 4 &amp; 2 &amp; 4 \\ 3 &amp; 1 &amp; 1 \\ 8 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 5 \end{bmatrix}}\)</span></p>
+<p><span class="math inline">\(\overline{\underline{x}} =\frac{1}{n}\:\color{OrangeRed}{\underline{1}'}\:\color{blue}{\textbf{X}}= \frac{1}{4} \color{OrangeRed}{\begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1\\ \end{bmatrix}} \color{blue}{\begin{bmatrix} 4 &amp; 2 &amp; 4 \\ 3 &amp; 1 &amp; 1 \\ 8 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 5 \end{bmatrix}}=\)</span></p>
 <p><span class="math inline">\(\frac{1}{4} \begin{bmatrix} 4+3+8+2 &amp; 2+1+3+5 &amp; 4+1+2+5 \\ \end{bmatrix}=\)</span></p>
 <p><span class="math inline">\(\frac{1}{4} \begin{bmatrix} 17 &amp; 11 &amp; 12\\ \end{bmatrix}= \begin{bmatrix} 4.25 &amp; 2.75 &amp; 3 \end{bmatrix}\)</span></p>
 </section>
@@ -1937,12 +1937,12 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 <section id="covariation-2" class="slide level3" data-number="4.4.5">
 <h3><span class="header-section-number">4.4.5</span> Covariation</h3>
 <p>Recall that the <em>sample covariation</em> is:</p>
-<p><span class="math inline">\(SP_{XY} =\sum (X_i - \overline{X})(Y_i - \overline{Y}) = \sum XY \frac{(\sum X)(\sum Y)}{n}\)</span></p>
+<p><span class="math inline">\(SP_{XY} =\sum (X_i - \overline{X})(Y_i - \overline{Y}) = \sum XY - \frac{(\sum X)(\sum Y)}{n}\)</span></p>
 </section>
 <section id="covariation-3" class="slide level3" data-number="4.4.6">
 <h3><span class="header-section-number">4.4.6</span> Covariation</h3>
 <p>Recall that the <em>sample covariation</em> is:</p>
-<p><span class="math inline">\(SP_{XY} =\sum (X_i - \overline{X})(Y_i - \overline{Y}) = \sum XY \frac{(\sum X)(\sum Y)}{n}\)</span></p>
+<p><span class="math inline">\(SP_{XY} =\sum (X_i - \overline{X})(Y_i - \overline{Y}) = \sum XY - \frac{(\sum X)(\sum Y)}{n}\)</span></p>
 <p><br>
 </p>
 <p>And that (extending to the <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> situation):</p>
@@ -1952,7 +1952,7 @@ a_{21} &amp; a_{22} &amp; a_{23} &amp; a_{24} &amp; a_{25}
 <section id="covariation-4" class="slide level3" data-number="4.4.7">
 <h3><span class="header-section-number">4.4.7</span> Covariation</h3>
 <p>Recall that the <em>sample covariation</em> is:</p>
-<p><span class="math inline">\(SP_{XY} =\sum (X_i - \overline{X})(Y_i - \overline{Y}) = \sum XY \frac{(\sum X)(\sum Y)}{n}\)</span></p>
+<p><span class="math inline">\(SP_{XY} =\sum (X_i - \overline{X})(Y_i - \overline{Y}) = \sum XY - \frac{(\sum X)(\sum Y)}{n}\)</span></p>
 <p><br>
 </p>
 <p>And that (extending to the <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> situation):</p>
@@ -2881,7 +2881,7 @@ window.QuartoSupport = function () {
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -3006,7 +3006,7 @@ window.QuartoSupport = function () {
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1200,
 
         height: 700,
 
@@ -3040,6 +3040,48 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
