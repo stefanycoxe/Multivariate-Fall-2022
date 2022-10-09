@@ -18,7 +18,6 @@ Update syllabus with schedule update 1: [HTML](files/Multivariate syllabus Fall 
 | 6    | Matrix algebra                  | [Mult22-6.html](files/Mult22-6.html) | [Mult22-6.pdf](files/Mult22-6.pdf) |
 | 7    | Principal component analysis    |             |             |
 | 8    | Factor analysis                 |             |             |
-| 9    | Latent class / profile analysis |             |             |
-| 10   | MANOVA / RM ANOVA               |             |             |
-| 11   | Mixed models                    |             |             |
-| 12   | Mediation                       |             |             |
+| 9   | MANOVA / RM ANOVA               |             |             |
+| 10   | Mixed models                    |             |             |
+| 11   | Mediation                       |             |             |
