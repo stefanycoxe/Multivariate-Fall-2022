@@ -4,7 +4,7 @@ title: "Multivariate (PSY 5246C) - Fall 2022"
 
 Syllabus: [HTML](files/Multivariate syllabus Fall 2022.html) [PDF](files/Multivariate-syllabus-Fall-2022.pdf)
 
-Update syllabus with schedule update 1: [HTML](files/Multivariate syllabus Fall 2022 update1.html) [PDF](files/Multivariate-syllabus-Fall-2022-update1.pdf)
+Updated syllabus with schedule update 1: [HTML](files/Multivariate syllabus Fall 2022 update1.html) [PDF](files/Multivariate-syllabus-Fall-2022-update1.pdf)
 
 [Lecture videos on Youtube](https://www.youtube.com/playlist?list=PLKrGRYggZL-Ep68y7UMzHwSEHoXlszMyI)
 
@@ -17,7 +17,7 @@ Update syllabus with schedule update 1: [HTML](files/Multivariate syllabus Fall 
 | 5    | Poisson regression              | [Mult22-5.html](files/Mult22-5.html) | [Mult22-5.pdf](files/Mult22-5.pdf) |
 | 6    | Matrix algebra                  | [Mult22-6.html](files/Mult22-6.html) | [Mult22-6.pdf](files/Mult22-6.pdf) |
 | 7    | Principal component analysis    | [Mult22-7.html](files/Mult22-7.html) | [Mult22-7.pdf](files/Mult22-7.pdf) |
-| 8    | Factor analysis                 |             |             |
+| 8    | Factor analysis                 | [Mult22-8.html](files/Mult22-8.html) | [Mult22-8.pdf](files/Mult22-8.pdf) |
 | 9   | MANOVA / RM ANOVA               |             |             |
 | 10   | Mixed models                    |             |             |
 | 11   | Mediation                       |             |             |
