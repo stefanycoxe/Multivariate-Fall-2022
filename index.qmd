@@ -6,6 +6,8 @@ Syllabus: [HTML](files/Multivariate syllabus Fall 2022.html) [PDF](files/Multiva
 
 Updated syllabus with schedule update 1: [HTML](files/Multivariate syllabus Fall 2022 update1.html) [PDF](files/Multivariate-syllabus-Fall-2022-update1.pdf)
 
+Updated syllabus with schedule update 2: [HTML](files/Multivariate syllabus Fall 2022 update2.html) [PDF](files/Multivariate-syllabus-Fall-2022-update2.pdf)
+
 [Lecture videos on Youtube](https://www.youtube.com/playlist?list=PLKrGRYggZL-Ep68y7UMzHwSEHoXlszMyI)
 
 | Week | Topic                           | HTML slides | PDF handout |
@@ -20,4 +22,4 @@ Updated syllabus with schedule update 1: [HTML](files/Multivariate syllabus Fall
 | 8    | Factor analysis                 | [Mult22-8.html](files/Mult22-8.html) | [Mult22-8.pdf](files/Mult22-8.pdf) |
 | 9   | MANOVA / RM ANOVA               | [Mult22-9.html](files/Mult22-9.html) | [Mult22-9.pdf](files/Mult22-9.pdf) |
 | 10   | Mixed models                    |             |             |
-| 11   | Mediation                       |             |             |
+
