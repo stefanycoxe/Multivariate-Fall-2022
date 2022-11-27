@@ -21,5 +21,5 @@ Updated syllabus with schedule update 2: [HTML](files/Multivariate syllabus Fall
 | 7    | Principal component analysis    | [Mult22-7.html](files/Mult22-7.html) | [Mult22-7.pdf](files/Mult22-7.pdf) |
 | 8    | Factor analysis                 | [Mult22-8.html](files/Mult22-8.html) | [Mult22-8.pdf](files/Mult22-8.pdf) |
 | 9   | MANOVA / RM ANOVA               | [Mult22-9.html](files/Mult22-9.html) | [Mult22-9.pdf](files/Mult22-9.pdf) |
-| 10   | Mixed models                    |             |             |
+| 10   | Mixed models                    | [Mult22-10.html](files/Mult22-10.html) | [Mult22-10.pdf](files/Mult22-10.pdf) |
 
